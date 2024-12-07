@@ -33,7 +33,7 @@ const Home = () => {
   //   action: {
   //     label: "Join Server",
   //     onClick: () =>
-  //       window.open("https://discord.com/invite/p8w8neURBb", "_blank"),
+  //       window.open("", "_blank"),
   //   },
 
   // });
@@ -102,7 +102,7 @@ const Home = () => {
                   Want more links? Join our{" "}
                   <a
                     className="text-primary"
-                    href="https://discord.com/invite/p8w8neURBb"
+                    href=""
                     target="_blank"
                   >
                     discord
