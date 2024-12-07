@@ -3,7 +3,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 // import {createStore} from "idb-keyval"
-// const customStore = createStore('Emerald_DB', 'Emerald_Store');
+// const customStore = createStore('YoBoiJake', 'YoBoiJake');
 
 interface SettingsState {
   proxy: "uv";
@@ -31,12 +31,12 @@ export const useSettingsStore = create<SettingsState>()(
       proxy: "uv",
       search: "https://www.google.com/search?q=",
       cloak: "none",
-      title: "Emerald",
+      title: "YoBoiJake",
       transport: {
         path: "/libcurl/index.mjs",
         name: "libcurl",
       },
-      icon: "/emerald.png",
+      icon: "https://i.imgflip.com/6ej3bl.png",
       panicLink: "https://classroom.google.com",
       panicKey: "`",
       setTitle: (str) => set(() => ({ title: str })),
